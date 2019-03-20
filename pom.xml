@@ -95,8 +95,8 @@
 						<configuration>
 							<url>http://127.0.0.1:8080/manager/text</url>
 							<path>/guestbook4</path>
-							<username>admin</username>
-							<password>manager</password>
+							<username>cogud0908</username>
+							<password>609340</password>
 						</configuration>
 					</plugin>
 				</plugins>
