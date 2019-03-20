@@ -28,7 +28,7 @@ public class GuestbookController {
 	public String add(GuestbookVo vo) {
 		dao.insert(vo);
 		
-		return "redirect:/";
+		return "";
 	}
 	
 	@RequestMapping(value="/delete", method=RequestMethod.GET)
@@ -41,6 +41,6 @@ public class GuestbookController {
 	public String delete(GuestbookVo vo) {
 		dao.delete(vo);
 		
-		return "redirect:/";
+		return "";
 	}
 }
