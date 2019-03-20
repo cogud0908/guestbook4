@@ -29,7 +29,7 @@ public class GuestbookController {
 	public String add(@ModelAttribute GuestbookVo vo) {
 		dao.insert(vo);
 		
-		return "";
+		return "list";
 	}
 	
 	@RequestMapping(value="/delete", method=RequestMethod.GET)
@@ -42,6 +42,6 @@ public class GuestbookController {
 	public String delete(GuestbookVo vo) {
 		dao.delete(vo);
 		
-		return "";
+		return "list";
 	}
 }
