@@ -1,4 +1,4 @@
-package com.douzone.emaillist.config;
+package com.douzone.guestbook.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
