@@ -117,7 +117,7 @@ public class GuestbookDao {
 
 			// 결과 가져오기(사용하기)
 			while (rs.next()) {
-				Long no = rs.getLong(1);
+				int no = rs.getInt(1);
 				String name = rs.getString(2);
 				String message = rs.getString(3);
 				String regDate = rs.getString(4);
