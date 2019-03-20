@@ -9,7 +9,6 @@
 </head>
 <body>
 	<form action="${pageContext.request.contextPath }/add" method="post">
-		<input type="hidden" name="a" value="add"/>
 		<table border="1" width="500">
 			<tr>
 				<td>이름</td><td><input type="text" name="name"></td>
