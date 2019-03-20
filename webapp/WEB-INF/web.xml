@@ -20,7 +20,7 @@
 	</context-param>
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>com.douzone.emaillist.config.RootConfig</param-value>
+		<param-value>com.douzone.guestbook.config.RootConfig</param-value>
 	</context-param>
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -54,7 +54,7 @@
 		</init-param>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>com.douzone.emaillist.config.WebConfig</param-value>
+			<param-value>com.douzone.guestbook.config.WebConfig</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
